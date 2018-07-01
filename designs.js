@@ -29,7 +29,7 @@ function makeGrid() {
         */
         for (let row = 0; row < gridRowInt; row++) {
             let t_row = "<td id=td" + count + "></td>"; //
-            $('tr').last().append(t_row);  // <table><tr><td></td><td></td></tr></table>
+            $('tr').last().append(t_row);  // <table><tr><td></td></tr></table>
 
             let t_data = "#td" + count; // This create an id used to identify each cells
             /*
